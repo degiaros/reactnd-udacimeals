@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/c830955033d20715f6e9c3a4754dc1138f88243b/react-icons/index.d.ts",
+    "raw": "registry:dt/react-icons#2.2.0+20170202224413",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/c830955033d20715f6e9c3a4754dc1138f88243b/react-icons/index.d.ts"
+  }
+}

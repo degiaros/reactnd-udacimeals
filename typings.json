@@ -1,5 +1,6 @@
 {
   "globalDependencies": {
+    "react-icons": "registry:dt/react-icons#2.2.0+20170202224413",
     "redux": "registry:dt/redux#3.5.2+20160703092728"
   }
 }
