@@ -17,6 +17,7 @@ class App extends Component {
     day: null,
     food: null,
     ingredientsModalOpen: false,
+    loadingFood: false,
   }
 
   openFoodModal = ({ meal, day}) => {
@@ -68,7 +69,7 @@ class App extends Component {
 
       return result;
     }, [])
-    .reduce((ings, { ingredientsLines }) => ings.concat(ingredientsLines), []);
+    .reduce((ings, { ingredientLines }) => ings.concat(ingredientLines), []);
   }
 
   render() {
@@ -151,8 +152,8 @@ class App extends Component {
                   <FoodList
                     food={food}
                     onSelect={(recipe) => {
-                      selectRecipe({ recipe, day: this.state.day, meal: this.state.meal })
-                      this.closeFoodModal()
+                      selectRecipe({ recipe, day: this.state.day, meal: this.state.meal });
+                      this.closeFoodModal();
                     }}
                   />)}
               </div>}
